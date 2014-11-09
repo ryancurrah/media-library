@@ -1,0 +1,163 @@
+/* BODY FORMAT */
+body
+{
+    background: url("/images/left_gradient.gif");
+    background-repeat: repeat-y;
+    position: relative;
+    background-color: #81ABD5;
+	margin: 0 50px;        
+}
+
+/* HEADER1 FORMAT */
+h1
+{
+    color: #ffffff;
+    font-family: Tahoma;
+}
+
+/* HEADER FORMAT */
+h3
+{
+    color: #ffffff;
+    font-family: Tahoma;
+    text-decoration: underline;
+}
+
+/* PARAGRAPH FORMAT */
+p.other
+{
+	color: #ffffff;
+    font-family: Tahoma;
+	margin: 5px 50px 5px 50px;
+}
+
+/* LINK FORMAT */
+a
+{
+	color: #0066FF;
+	text-decoration:none;
+    font-family: Tahoma;
+}
+
+a.close
+{
+    color: #0066FF;
+	text-decoration:none;
+    font-family: Tahoma;
+}
+
+a:visited
+{
+	color: #0066FF;
+}
+
+a:hover
+{
+	color: #CC0033;
+}
+
+/* DIVISION FORMAT */
+div
+{
+    color: white;
+    font-family: Tahoma;
+}
+
+div#leftcolumn {width: 49%; border: 0px solid red; float: left}
+div#rightcolumn {width: 49%; border: 0px solid red; float: right}
+
+/* TABLE DATA */
+td
+{
+	color: white;
+    font-family: Tahoma;
+    vertical-align: top;
+}
+/* TABLE ROW */
+tr
+{
+	color: white;
+    font-family: Tahoma;
+    vertical-align: top;
+}
+/* GREEN TABLE */
+table.green
+{
+	border-width: 1px;
+	border-color: #81ABD5;
+	border-collapse: separate;
+	background: #81ABD5;
+} 
+table.green th
+{
+	border-width: 1px;
+	padding: 2px;
+	color: #0066FF;
+	border-style: solid;
+	border-color: #81ABD5;
+	background: #ABD581;
+	-moz-border-radius: ;
+}
+table.green td
+{
+	width: 100%;
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	border-color: #81ABD5;
+	background-color: #ABD581;
+	-moz-border-radius: ;
+}
+/* ORANGE TABLE */
+table.orange
+{
+	border-width: 1px;
+	border-color: 81ABD5;
+	border-collapse: separate;
+	background: #81ABD5;
+} 
+
+table.orange th 
+{
+	border-width: 1px;
+	padding: 2px;
+	color: #0066FF;
+	border-style: solid;
+	border-color: 81ABD5;
+	background: orange;
+	-moz-border-radius: ;
+}
+table.orange td
+{
+	width: 100%;
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	border-color: #81abd5;
+	background-color: orange;
+	-moz-border-radius: ;
+} 
+/* FANCY FORMS DESIGN */
+fieldset.orange
+{   
+	margin-left: 10px;    
+	margin-right: 10px;
+	margin-bottom: 10px;    
+	padding: 0; 
+	border: 1px solid #ffffff;     
+	background-color: #ffa500; 
+}  
+fieldset.green
+{     
+	margin-left: 10px;    
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 0;     
+	border: 1px solid #ffffff;     
+	background-color: #ABD581; 
+} 
+legend 
+{   
+	color: 0066FF;
+	font-weight: bold;  
+}
